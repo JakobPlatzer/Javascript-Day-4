@@ -93,8 +93,9 @@ function newBackgroundColor () {
 
     console.log(randomNumber1, randomNumber2, randomNumber3)
 
-    document.getElementById("body").style.backgroundColor = newColor;
-    document.getElementById("body").style.transition = "1s";
+    document.body.style.backgroundColor = newColor;
+    document.body.style.transition = "1s";
+
 }
 
 document.getElementById("colorRandomizer").addEventListener("click", newBackgroundColor);

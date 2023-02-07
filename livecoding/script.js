@@ -49,7 +49,7 @@
 //     }
 // }
 
-// document.getElementById("menu").addEventListener("click", toggleNavbar);
+document.getElementById("menu").addEventListener("click", toggleNavbar);
 
 function createTask() {
     let task = document.getElementById("demo").value;
