@@ -1,0 +1,13 @@
+.container {
+    width: 50%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.picture {
+    width: 120px;
+    height: auto;
+    visibility: visible;
+}
