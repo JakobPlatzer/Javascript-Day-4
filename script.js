@@ -82,3 +82,16 @@ document.getElementById("santa2").addEventListener("click", hideSanta2);
 document.getElementById("santa3").addEventListener("click", hideSanta3);
 document.getElementById("santa4").addEventListener("click", hideSanta4);
 
+// Intermediate Exercise 2
+
+function newBackgroundColor () {
+
+    let randomNumber1 = Math.floor(Math.random() * 256)
+    let randomNumber2 = Math.floor(Math.random() * 256)
+    let randomNumber3 = Math.floor(Math.random() * 256)
+    let newColor = `rgb(${randomNumber1}, ${randomNumber2}, ${randomNumber3})`
+
+    document.getElementById("body").style.backgroundColor = newColor;
+}
+
+document.getElementById("colorRandomizer").addEventListener("click", newBackgroundColor);
